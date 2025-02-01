@@ -166,13 +166,13 @@ body {
                 gameSpeed = 200;
                 enemySnakes.forEach(e => e.speed = 400);
                 scoreMultiplier = 1;
-                noWallCollision = false;
+                noWallCollision = true;
                 break;
             case 'hard':
                 gameSpeed = 100;
                 enemySnakes.forEach(e => e.speed = 200);
                 scoreMultiplier = 2;
-                noWallCollision = false;
+                noWallCollision = true;
                 break;
         }
         document.getElementById('difficulty-selection').style.display = 'none';
